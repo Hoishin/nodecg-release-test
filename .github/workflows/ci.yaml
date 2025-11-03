@@ -150,10 +150,9 @@ jobs:
         with:
           fetch-depth: 0
           token: ${{ secrets.NODECG_MONOREPO_GH_TOKEN }}
-      - run: gh auth setup-git
+      - run: gh pr checkout ${{ fromJson(needs.release-please.outputs.pr).number }}
         env:
           GH_TOKEN: ${{ secrets.NODECG_MONOREPO_GH_TOKEN }}
-      - run: gh pr checkout ${{ fromJson(needs.release-please.outputs.pr).number }}
       - uses: actions/setup-node@v6
         with:
           node-version: 24
