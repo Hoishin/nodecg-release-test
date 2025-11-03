@@ -1,5 +1,12 @@
 # Changelog
 
+## [6.1.0](https://github.com/nodecg/nodecg-release-test/compare/database-adapter-types-v6.0.1...database-adapter-types-v6.1.0) (2025-11-03)
+
+
+### Features
+
+* npm trusted publish ([#872](https://github.com/nodecg/nodecg-release-test/issues/872)) ([9eccbfb](https://github.com/nodecg/nodecg-release-test/commit/9eccbfb21d091660214f7279341cd1d9f2af70ff))
+
 ## [6.0.1](https://github.com/Hoishin/nodecg-release-test/compare/database-adapter-types-v6.0.0...database-adapter-types-v6.0.1) (2025-11-02)
 
 
