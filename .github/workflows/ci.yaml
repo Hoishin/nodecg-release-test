@@ -153,7 +153,7 @@ jobs:
           fetch-depth: 0
       - run: gh pr checkout ${{ fromJson(needs.release-please.outputs.pr).number }}
         env:
-          GH_TOKEN: ${{ github.token }}
+          GH_TOKEN: ${{ env.NODECG_MONOREPO_GH_TOKEN }}
       - uses: actions/setup-node@v6
         with:
           node-version: 24
@@ -172,6 +172,8 @@ jobs:
             git commit -m "chore: update package-lock.json"
             git push
           fi
+        env:
+          GH_TOKEN: ${{ env.NODECG_MONOREPO_GH_TOKEN }}
 
   publish:
     permissions:
