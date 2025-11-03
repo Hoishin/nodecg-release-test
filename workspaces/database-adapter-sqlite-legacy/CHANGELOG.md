@@ -1,5 +1,20 @@
 # Changelog
 
+## [7.1.0](https://github.com/nodecg/nodecg-release-test/compare/database-adapter-sqlite-legacy-v7.0.3...database-adapter-sqlite-legacy-v7.1.0) (2025-11-03)
+
+
+### Features
+
+* npm trusted publish ([#872](https://github.com/nodecg/nodecg-release-test/issues/872)) ([9eccbfb](https://github.com/nodecg/nodecg-release-test/commit/9eccbfb21d091660214f7279341cd1d9f2af70ff))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @nodecg-release-test/database-adapter-types bumped from 6.0.1 to 6.1.0
+    * @nodecg-release-test/internal-util bumped from 6.0.2 to 6.1.0
+
 ## [7.0.3](https://github.com/Hoishin/nodecg-release-test/compare/database-adapter-sqlite-legacy-v7.0.2...database-adapter-sqlite-legacy-v7.0.3) (2025-11-02)
 
 

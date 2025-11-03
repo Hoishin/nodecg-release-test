@@ -2,6 +2,38 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [11.6.0](https://github.com/nodecg/nodecg-release-test/compare/nodecg-v11.5.0...nodecg-v11.6.0) (2025-11-03)
+
+
+### Features
+
+* maybe this ([#30](https://github.com/nodecg/nodecg-release-test/issues/30)) ([470ace9](https://github.com/nodecg/nodecg-release-test/commit/470ace9ce17a4b3a3321b5602f96b44411193850))
+* npm trusted publish ([#872](https://github.com/nodecg/nodecg-release-test/issues/872)) ([9eccbfb](https://github.com/nodecg/nodecg-release-test/commit/9eccbfb21d091660214f7279341cd1d9f2af70ff))
+* oops ([1b9d777](https://github.com/nodecg/nodecg-release-test/commit/1b9d777491af6025158af739c08be53a5ef40bbc))
+* or this ([a6711a4](https://github.com/nodecg/nodecg-release-test/commit/a6711a4a13d10d95ccff1cd7187a996883d14bcb))
+* run actual tests ([#34](https://github.com/nodecg/nodecg-release-test/issues/34)) ([774d8cc](https://github.com/nodecg/nodecg-release-test/commit/774d8ccc7301f5ef54b52a6f3e926251cc9fb44f))
+* this ([46382e5](https://github.com/nodecg/nodecg-release-test/commit/46382e570330b6f4b590c536f46f4106c3823728))
+* this must be ([3a25ec5](https://github.com/nodecg/nodecg-release-test/commit/3a25ec5e06039e98bc9941bf9c2b2b26e6d29fc9))
+* use PAT to push release please PR ([#37](https://github.com/nodecg/nodecg-release-test/issues/37)) ([16bd5ec](https://github.com/nodecg/nodecg-release-test/commit/16bd5ec87438b9cc7f28243d1ea2deb33b283d32))
+
+
+### Bug Fixes
+
+* also ([78b75c0](https://github.com/nodecg/nodecg-release-test/commit/78b75c04a35406d44b57eeb9a99d511a2d030753))
+* always run CI for release PR ([#35](https://github.com/nodecg/nodecg-release-test/issues/35)) ([d42fede](https://github.com/nodecg/nodecg-release-test/commit/d42fedef02358d021bf048e91ddce513699a008b))
+* like this? ([#32](https://github.com/nodecg/nodecg-release-test/issues/32)) ([74b712d](https://github.com/nodecg/nodecg-release-test/commit/74b712d1ada8d753c2d59f5fd3b0ea950b79792c))
+* this time for sure ([c87a5bb](https://github.com/nodecg/nodecg-release-test/commit/c87a5bbba7e2ccaa2cac252544437429c1a50596))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @nodecg-release-test/cli bumped from 15.4.0 to 15.5.0
+    * @nodecg-release-test/database-adapter-sqlite-legacy bumped from 7.0.3 to 7.1.0
+    * @nodecg-release-test/database-adapter-types bumped from 6.0.1 to 6.1.0
+    * @nodecg-release-test/internal-util bumped from 6.0.2 to 6.1.0
+
 ## [11.5.0](https://github.com/Hoishin/nodecg-release-test/compare/nodecg-v11.4.1...nodecg-v11.5.0) (2025-11-03)
 
 
